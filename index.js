@@ -1,4 +1,3 @@
-const { config } = require("process");
 
 //var is globel varible it can update and re change in code
 var a=1;
@@ -25,3 +24,12 @@ console.log(b)
 const c=3
 console.log(c)
   //c=5---const is constant value
+// const must be initialized during the declearation unlike var and let
+var d
+d=9
+console.log(d)
+let e
+e=10
+console.log(e)
+const f 
+//f=11
